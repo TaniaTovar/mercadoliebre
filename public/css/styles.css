@@ -54,6 +54,12 @@ header nav {
     margin-left: 20px;
 }
 
+.fa-search {
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
 header ul li {
     list-style-type: none;
 }
@@ -75,7 +81,8 @@ header .form .submit {
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
-    width: 10%;
+    width: 18px;
+    height: 18px;
 }
 
 div.burger-menu {
