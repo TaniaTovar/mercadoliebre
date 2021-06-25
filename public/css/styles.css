@@ -295,9 +295,9 @@
             
             .fa-credit-card {
                 display: block;
-                font-size: 260%;
                 color: blue;
                 margin-bottom: 10px;
+                font-size: 2em;
             }
             
             .fa-credit-card:hover {
@@ -306,7 +306,7 @@
             
             .fa-gift {
                 display: block;
-                font-size: 260%;
+                font-size: 2em;
                 color: blue;
                 margin-bottom: 10px;
             }
@@ -317,7 +317,7 @@
             
             .fa-user-shield {
                 display: block;
-                font-size: 260%;
+                font-size: 2em;
                 color: blue;
                 margin-bottom: 10px;
             }
