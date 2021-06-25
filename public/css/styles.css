@@ -357,6 +357,35 @@ footer article p {
     }
 }
 
+
+/* Navegación en cel */
+
+@media (max-device-width: 361px) {
+    nav {
+        display: none;
+    }
+}
+
+
+/* Navegación en tablets */
+
+@media screen and (min-width: 361px) {
+    nav {
+        padding: 15px;
+        margin: 0;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media (min-device-width: 362px) {
+    .burger {
+        display: none;
+    }
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
