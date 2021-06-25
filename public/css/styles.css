@@ -301,7 +301,7 @@ footer article p {
 }
 
 .fa-credit-card:hover {
-    color: rgba(214, 195, 22, 0.918);
+    color: #EAC926;
 }
 
 .fa-gift {
@@ -312,7 +312,7 @@ footer article p {
 }
 
 .fa-gift:hover {
-    color: rgba(214, 195, 22, 0.918);
+    color: #EAC926;
 }
 
 .fa-user-shield {
@@ -323,7 +323,7 @@ footer article p {
 }
 
 .fa-user-shield:hover {
-    color: rgba(214, 195, 22, 0.918);
+    color: #EAC926;
 }
 
 @media (min-width: 361px) {
@@ -383,6 +383,20 @@ footer article p {
 @media (min-device-width: 362px) {
     .burger {
         display: none;
+    }
+}
+
+
+/* Navegación en desktop */
+
+@media (min-width: 769px) {
+    .contenedor_footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .contenedor_footer section {
+        padding: 17px 30px;
     }
 }
 
